@@ -33,7 +33,7 @@ export class HandleInputs {
 
   forwardValues(earned, total) {
     console.log(earned, total);
-    const handlingCalculation = new HandlingCalculation();
+    const handlingCalculation = new HandlingCalculation(); /////////////cannot get access here
     handlingCalculation.getRows();
   }
 }
